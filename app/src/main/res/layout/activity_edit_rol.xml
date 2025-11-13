@@ -10,6 +10,7 @@
         android:layout_height="wrap_content"
         android:text="Editar Rol"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:textSize="18sp"
         android:layout_marginBottom="12dp"/>
 
@@ -17,7 +18,9 @@
         android:id="@+id/etNombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="10dp"
         android:hint="Nombre"
+        android:background="@drawable/edttext_bkg"
         android:layout_marginBottom="8dp"/>
 
     <EditText
@@ -25,12 +28,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Descripcion"
+        android:padding="10dp"
+        android:background="@drawable/edttext_bkg"
         android:layout_marginBottom="16dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnGuardar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@drawable/bkg_btn"
         android:text="Guardar"/>
 
 </LinearLayout>

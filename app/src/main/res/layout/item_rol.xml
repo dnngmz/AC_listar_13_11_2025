@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:padding="12dp"
-    android:background="@android:color/white"
+    android:background="@drawable/edttext_bkg"
     android:layout_marginBottom="8dp">
 
         <TextView
@@ -34,6 +34,8 @@
                 android:id="@+id/btnEditar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:background="@drawable/bkg_btn"
                 android:text="Editar"/>
 
             <androidx.appcompat.widget.AppCompatButton
@@ -41,6 +43,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Eliminar"
+                android:textColor="@color/white"
+                android:background="@drawable/bkg_btn"
                 android:layout_marginStart="8dp"/>
         </LinearLayout>
 

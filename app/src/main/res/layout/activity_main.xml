@@ -20,9 +20,10 @@
             android:id="@+id/edtNombreRol"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:padding="5dp"
-            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
             android:hint="Nombre"
+            android:background="@drawable/edttext_bkg"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
 
@@ -30,9 +31,10 @@
             android:id="@+id/edtDescripcionRol"
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:padding="5dp"
-            android:layout_margin="5dp"
+            android:padding="10dp"
+            android:layout_margin="10dp"
             android:hint="Descripcion"
+            android:background="@drawable/edttext_bkg"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
 
@@ -43,6 +45,8 @@
             android:text="Guardar Rol"
             android:padding="5dp"
             android:layout_margin="10dp"
+            android:textColor="@color/white"
+            android:background="@drawable/bkg_btn"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"/>
     </LinearLayout>
